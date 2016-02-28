@@ -1,0 +1,10 @@
+{% extends "current_datetime.html" %}
+
+{% block title %}The future time{% endblock %}
+
+{% block content %}
+<p>In {{ offset }} hours it will be {{ then_date }}</p>
+{% block addition %}
+<p>And some more stuff</p>
+{% endblock %}
+{% endblock %}
